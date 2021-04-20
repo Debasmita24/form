@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUSTOMER INFORMATION</title>
+    <link rel="icon" href="writing.png" type="image/gif" sizes="16x16">
+</head>
+<style>
+   
+    h1{
+        text-align: center;
+        color:rgb(247, 118, 12);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-style: strong;
+       font-style: italic;
+    }
+</style>
+<body>
+    <h1><u>AMIGO</u></h1>.
+    <fieldset>
+        <legend style="font-size: 22px;text-align: center;background-color: rgb(212, 167, 233);color:rgb(8, 5, 5);font-family: Georgia, 'Times New Roman', Times, serif;">CUSTOMER DETAILS</legend>
+        <form style="background-color: rgba(247, 184, 125, 0.986);">
+       <label style="font-style:italic;" for="name">FULL NAME:</label><br>
+       <input style="border: 2px solid rgb(166, 48, 221); padding: 12px 20px;margin: 8px 0;border-radius: 4px;" type="text" id="name" name="name" placeholder="First Name">
+       <input style="border: 2px solid rgb(166, 48, 221); padding: 12px 20px;margin: 8px 0;border-radius: 4px;"type="text" id="name" name="name" placeholder="Last Name"><br><br><br>
+      
+       <label style="font-style:italic;"for="contact">CONTACT NUMBER:</label><br>
+       <input style="border: 2px solid rgb(166, 48, 221); padding: 12px 20px;margin: 8px 0;border-radius: 4px;"type="tel" id="contact" name="contact" placeholder="Enter your contact number"><br><br><br>
+       
+       <label style="font-style:italic; " for= "email">EMAIL ID:</label><br>
+       <input style="border: 2px solid rgb(166, 48, 221); padding: 12px 20px;margin: 8px 0;border-radius: 4px;" type="email" id="email" name="email" placeholder="Enter your mail id"><br><br><br>
+       
+       <label style="font-style:italic;" for="address">ADDRESS:</label><br>
+       <input style="border: 2px solid rgb(166, 48, 221); padding: 12px 20px;margin: 8px 0;border-radius: 4px;" type="text" id="address" name="address" placeholder="Your address">
+       <br><br><br>
+
+       <label style="font-style:italic;"for="favourite item">YOUR FAVOURITE ITEM IN OUR STORE:</label><br>
+        <select style="border: 2px solid rgb(166, 48, 221); padding: 12px 20px;margin: 8px 0;border-radius: 4px;"id="favourite item" name="favourite item">    
+            <option>Please select...</option>
+            <option value="Food">Food</option> 
+            <option value="Clothing">Clothing</option> 
+            <option value="Toys">Toys</option> 
+            <option value="Shoes">Shoes</option> 
+            <option value="Household appliance">Household Appliance</option> 
+            </select><br><br><br>
+
+        <label style="font-style:italic;"for="days" id="days" name="days" placeholder="Sunday">PREFFERED DAYS OFP PURCHASING:</label><br>
+       <input type="checkbox" id="day1" name="day1" value="Sunday">
+        <label for="day1"> Sunday</label><br>
+        <input type="checkbox" id="day2" name="day2" value="Monday">
+        <label for="day2"> Monday</label><br>
+        <input type="checkbox" id="day3" name="day3" value="Tuesday">
+        <label for="day3"> Tuesday</label><br>
+        <input type="checkbox" id="day4" name="day4" value="Wednesday">
+        <label for="day4"> Wednesday</label><br>
+        <input type="checkbox" id="day5" name="day5" value="Thursday">
+        <label for="day5"> Thursday</label><br>
+        <input type="checkbox" id="day6" name="day6" value="Friday">
+        <label for="day6"> Friday</label><br>
+        <input type="checkbox" id="day7" name="day7" value="Satday">
+        <label for="day7"> Satday</label><br>
+       <hr>
+       <label style="font-style:italic;" for="heard">HOW DID YOU HEAR ABOUT US?</label><br><br>
+        <select id="heard" name="heard">
+            <option>Please select...</option>
+            <option value="Newspaper">Newspaper</option> 
+            <option value="Magazine">Magazine</option> 
+            <option value="Internet">Internet</option> 
+            <option value="Others">Others</option> 
+            </select><br><br><br>
+        
+            <label style="font-style:italic;" for="suggestions">SUGGESTIONS IF ANY FOR FURTHER IMPROVEMENT:</label><br><br>
+           <textarea style="border: 2px solid rgb(166, 48, 221); padding: 12px 20px;margin: 8px 0;border-radius: 4px;"id="about" name="about" rows="4" cols="50"></textarea><br><br><br>
+           <input style="border: 2px solid ; padding: 12px 20px;margin: 8px 0;border-radius: 4px; background-color:rgb(212, 167, 233) ;"type="submit" value="Submit">
+           <input style="border: 2px solid ; padding: 12px 20px;margin: 8px 0;border-radius: 4px; background-color:rgb(212, 167, 233) ; "type="reset">
+    </form>
+    </fieldset>
+</body>
+</html>
